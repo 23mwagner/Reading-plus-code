@@ -1,0 +1,586 @@
+
+
+
+
+
+
+
+ 
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+
+    
+    
+
+
+<head>
+
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+<meta name="fragment" content="!" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<link rel="icon" href="https://resource.readingplus.com/seereader/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://resource.readingplus.com/seereader/favicon.ico" type="image/x-icon" />
+
+
+    	<title>Reading Plus&reg; SR</title>
+        <meta name="fragment" content="!" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<script type="text/javascript">
+    var apiServer = "/seereader/api/dash"
+
+    var server = "/ssr";
+
+    var firstName = "Matthew";
+    var lastName = "Wagner";
+
+    var name = "Matthew Wagner";
+    var grade = "";
+    var className = "English 8 - Sanders - 1-2";
+    var schoolName = "Scott County Middle School";
+    var imageServer = "https://content-media.readingplus.com/images";
+</script>
+
+
+
+	<script src="https://resource.readingplus.com/seereader/js/rp-core-4e1557a042dd83a69888277f2797f80399499889-3677.1.min.js" type="text/javascript" crossorigin="anonymous"></script>
+
+
+
+
+
+    <script type="text/javascript" src="https://resource.readingplus.com/seereader/modules/shared-4e1557a042dd83a69888277f2797f80399499889-3677.1.min.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+    <script type="text/javascript" src="https://resource.readingplus.com/seereader/modules/ssr-4e1557a042dd83a69888277f2797f80399499889-3677.1.min.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://resource.readingplus.com/seereader/css/shared-4e1557a042dd83a69888277f2797f80399499889-3677.1.min.css"/>
+
+
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="https://resource.readingplus.com/seereader/css/ie-hacks.css">
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="https://resource.readingplus.com/seereader/css/we-love-ie9.css">
+<![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="https://resource.readingplus.com/seereader/css/ssr-4e1557a042dd83a69888277f2797f80399499889-3677.1.min.css"/>
+
+
+
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="https://resource.readingplus.com/seereader/css/ie-hacks.css">
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="https://resource.readingplus.com/seereader/css/we-love-ie9.css">
+<![endif]-->
+
+
+    </head>
+    <body class="module-sr">
+    	<div id="screen-modal" class="hidden"></div>
+<div id="message-alert" class="hidden">
+    <div id="container">
+        <h2></h2>
+    </div>
+</div>
+
+<div id="appstate-message-alert" class="hidden">
+    <div id="container">
+        <h2></h2>
+    </div>
+</div>
+        <div id="header" class="module-seeReader">
+            
+<div id="logo" data-gmt-local-time="UQErO" data-gmt-expires="00543"></div>
+<div id="header-container">
+    <div id="header-student-profile-container">
+        <div id="header-student-profile-user">
+            <span id="header-student-profile-user-text">
+            Matthew Wagner
+            </span>
+            <span id="header-profile-image" style="background: url(https://content-media.readingplus.com/images/1442-10-b033e636-808d-47f6-9882-0d4b9285816c.jpg)"></span>
+        </div>
+        <div id="header-student-profile-class">
+            Scott County Middle School
+        </div>
+    </div>
+    <div id="quit-button-container">
+        <a href="/seereader/api/dash/home">
+            <div id="quit-button"></div>
+        </a>
+    </div>
+</div>
+
+        </div>
+        <div id="readingplus">
+            <div id="app-wrapper" class="seeReader">
+                <div class="head">
+                    <div id="instructor">
+                        <div class="icon">
+                        </div>
+                    </div>
+
+                    <div class="text">
+                        <h1 class="select"><span></span></h1>
+                        <h1 class="continue"><span></span> </h1>
+                    </div>
+                    
+                </div>
+                <div class="content">
+                    
+                    <div class="main-content">
+                        
+                        
+                    </div>
+                    
+                    
+                        <div id="results" class="wrapper cb">
+    <div class="main">
+        <div class="results-wrapper">
+            <div class="results">
+                <div class="aside left">
+                    <div class="image-wrap">
+                        <img class="sm image" src="" alt="" />
+                        <span class="score status complete"></span>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="header">
+                        <span class="title">
+                                                    </span>
+                    </div>
+                    <div class="body">
+                        <div class="rate-invalid hidden">
+                            <ul class="rate irate">
+                                <li class="label">I-Rate</li>
+                                <li class="warn">?</li>
+                                <li class="label">wpm</li>
+                            </ul>
+                        </div>
+                    
+                                                                                    <div class="rate-valid">
+                                    <ul class="rate irate">
+                                        <li class="label">I-Rate</li>
+                                        <li class="currentrate">N/A</li>
+                                        <li class="label">wpm</li>
+                                    </ul>
+                                </div>
+                                                                                        <div class="rate-valid">
+                                    <ul class="rate grate">
+                                        <li class="label">G-Rate</li>
+                                        <li class="currentrate">?</li>
+                                        <li class="label">wpm</li>
+                                    </ul>
+                                </div>
+                                                        <ul class="words-read">
+                                <li class="label">Words Read</li>
+                                <li class="total-words">?</li>
+                                <li class="label"></li>
+                            </ul>
+                                            </div>
+                    <div class="footer">
+                        <div class="prompt-wrapper">
+                            
+                            <span class="message prompt"></span>
+                            <div class="action-wrapper">
+                                <span class="action"></span>
+                                <span class="action"></span>
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+                                    <div class="power">
+                        <a href="#use-power">Use Power</a>
+                    </div>
+                            </div>
+        </div>
+    </div>
+    <div class="aside right">
+        <div class="achievements-wrapper hidden">
+            <div class="achievements">
+                <span class="title">
+                    Awards &amp; Achievements
+                </span> 
+                <ul class="achievements-list" >
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+                    
+                </div>
+
+                
+                    <div id="profile-container">
+                        <div id="profile-wrapper">
+                            <div id="interest-profile">
+    <a id="left-button"></a>
+
+    <div id="top-interests">
+        <heading><h3>TOP INTERESTS</h3></heading>
+        <ul id="curriculum-interest">
+            <li class="row">
+                <span class="history icon">&nbsp;</span>
+                <div class="label">U.S. History</div>
+                <div class="rank"><div class="text">1</div></div>
+            </li>
+            <li class="row">
+                <span class="global-studies icon">&nbsp;</span>
+                <div class="label">Global Studies</div>
+                <div class="rank"><div class="text">2</div></div>
+            </li>
+            <li class="row">
+                <span class="arts icon">&nbsp;</span>
+                <div class="label">The Arts</div>
+                <div class="rank"><div class="text">3</div></div>
+            </li>
+        </ul>
+        <div class="message hidden">
+            Doesn't seem like you've found many of the selections you've read interesting.
+            Help us understand what you like to read about so we can add topics you and
+            others will find more interesting.
+            <div class="action"><div class="text">Share My Interests ></div></div>
+        </div>
+
+    </div>
+
+    <div id="interest-graph">
+        <ul id="graph">
+            <li class="iline"></li>
+            <li class="iline"></li>
+            <li class="iline"></li>
+            <li class="iline"></li>
+            <li class="iline last"></li>
+        </ul>
+
+        <div id="ibar-container">
+            <ul>
+                <li class="ibar personal-journey" style="height:50%"></li>
+                <li class="ibar our-earth" style="height:100%"></li>
+                <li class="ibar heros" style="height:20%"></li>
+                <li class="ibar mystery" style="height:60%"></li>
+                <li class="ibar art" style="height:30%"></li>
+                <li class="ibar how-things-work" style="height:10%"></li>
+                <li class="ibar time-machine" style="height:50%"></li>
+                <li class="ibar sports" style="height:70%"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="interest-legend">
+        <ul id="legend">
+            <li class="row">
+                <ul>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                </ul>
+            </li>
+
+            <li class="row">
+                <ul>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star"></li>
+                </ul>
+            </li>
+
+            <li class="row">
+                <ul>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                </ul>
+            </li>
+
+            <li class="row">
+                <ul>
+                    <li class="star on"></li>
+                    <li class="star on"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                </ul>
+            </li>
+
+            <li class="row">
+                <ul>
+                    <li class="star on"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                    <li class="star"></li>
+                </ul>
+            </li>
+
+
+        </ul>
+    </div>
+
+</div>
+                            <div id="performance-profile">
+                                
+
+<div class="header">
+    <span class="message-wrapper">
+            LEVEL PROGRESS
+
+        </span>
+
+        <div class="assignment-wrapper">
+        <div class="bonus hidden">
+            <span class="label">Bonus</span>
+            <span class="value">+0</span>
+        </div>
+        <div class="make-up hidden">
+            <span class="label">Make Up</span>
+                        <span class="value">+</span>
+       </div>
+        <div class="current">
+            <ul>
+                                  <li class="indicator false attempted">
+                        <div class="checkmark"></div>
+                    </li>
+                                  <li class="indicator false ">
+                        <div class="checkmark"></div>
+                    </li>
+                                  <li class="indicator false ">
+                        <div class="checkmark"></div>
+                    </li>
+                                  <li class="indicator false ">
+                        <div class="checkmark"></div>
+                    </li>
+                          </ul>
+        </div>
+       <span>This Week's Assignment</span>
+    </div>
+ </div>
+
+
+<div class="profile-wrapper cb">
+
+    
+            <div class="current standing complete">
+            <em class="message-wrapper"><span class='label'>Level</span><span class='level'>G</span></em>
+        </div>
+                                    <div class="current goal sublevel">
+                    <em class="message-wrapper">
+                        <span class='label'>Halfway</span>
+                        <span class='level'><span class='image'></span> </span>
+                    </em>
+                </div>
+                    
+        <div class="streak-wrapper step4">
+       
+                                 
+            
+             <div class="combo  incomplete">
+                 <div class="combo-wrapper">
+                     <div id="left-combo-wrapper" class="">
+                         <div id="left-combo">
+                                                                                                                                                     <div class="score">
+                                                                     80%+                                                              </div>
+                                                      </div>
+                     </div>
+                     <div class="award-divider">
+                         <div class="award"></div>
+                     </div>
+                     <div id="right-combo-wrapper" class="">
+                         <div id="right-combo">
+                                                                                                                                                     <div class="score">
+                                                                    80%+                                                             </div>
+                                                      </div>
+                     </div>
+                 </div>
+             </div>
+
+
+                                          
+            
+             <div class="combo  incomplete">
+                 <div class="combo-wrapper">
+                     <div id="left-combo-wrapper" class="">
+                         <div id="left-combo">
+                                                                                                                                                     <div class="score">
+                                                                     80%+                                                              </div>
+                                                      </div>
+                     </div>
+                     <div class="award-divider">
+                         <div class="award"></div>
+                     </div>
+                     <div id="right-combo-wrapper" class="">
+                         <div id="right-combo">
+                                                                                                                                                     <div class="score">
+                                                                    80%+                                                             </div>
+                                                      </div>
+                     </div>
+                 </div>
+             </div>
+
+
+                                          
+            
+             <div class="combo  incomplete">
+                 <div class="combo-wrapper">
+                     <div id="left-combo-wrapper" class="">
+                         <div id="left-combo">
+                                                                                                                                                     <div class="score">
+                                                                     80%+                                                              </div>
+                                                      </div>
+                     </div>
+                     <div class="award-divider">
+                         <div class="award"></div>
+                     </div>
+                     <div id="right-combo-wrapper" class="">
+                         <div id="right-combo">
+                                                                                                                                                     <div class="score">
+                                                                    80%+                                                             </div>
+                                                      </div>
+                     </div>
+                 </div>
+             </div>
+
+
+                                          
+            
+             <div class="combo  incomplete">
+                 <div class="combo-wrapper">
+                     <div id="left-combo-wrapper" class="">
+                         <div id="left-combo">
+                                                                                                                                                     <div class="score">
+                                                                     80%+                                                              </div>
+                                                      </div>
+                     </div>
+                     <div class="award-divider">
+                         <div class="award"></div>
+                     </div>
+                     <div id="right-combo-wrapper" class="">
+                         <div id="right-combo">
+                                                                                                                                                     <div class="score">
+                                                                    80%+                                                             </div>
+                                                      </div>
+                     </div>
+                 </div>
+             </div>
+
+
+                           </div>
+    </div>
+
+
+                <div class="performance-stats">
+            <div class="performance-streaks">
+                <span class="current-streak">Streak <span class="streak-value">0</span></span>
+                <span class="best-streak">Best Streak <span class="streak-value">4</span></span>
+            </div>
+            <div class="performance-powers">
+                <span class="powers-label">Powers</span>
+                <ul>
+                                                                <li></li>
+                                            <li></li>
+                                            <li></li>
+                                    </ul>
+                <span class="powers-remaining">x 0</span>
+            </div>
+        </div>
+    
+    
+
+
+
+
+</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="text-data" class="offscreen">
+                        Need to have this in place so the browser can calculate the actual width of the TTF used in the
+                        reader
+                    </div>
+                
+
+                <div id="appstate-console" class="hidden">
+                    App-state console
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            RPUI.initialize({
+                
+                userid: "6696767",
+                appRoot: "/seereader",
+                apiServer: "/ssr/api/",
+                appUrl: "/seereader/api/",
+                contentURL: "https://content.readingplus.com/rp-content",
+                imageServer: "https://content-media.readingplus.com/images",
+                currentTitle : "A Symbol of Wisdom",
+                appState : '{"hours":0,"section":6,"subsection":-1,"questions":[],"dataScreens":[{"lineCount":12,"wordCount":163,"index":0,"secondsTaken":0,"reread":false,"trap":0},{"lineCount":12,"wordCount":151,"index":1,"secondsTaken":0,"reread":false,"trap":0},{"lineCount":12,"wordCount":159,"index":2,"secondsTaken":0,"reread":false,"trap":0},{"lineCount":12,"wordCount":154,"index":3,"secondsTaken":0,"reread":false,"trap":0},{"lineCount":12,"wordCount":165,"index":4,"secondsTaken":0,"reread":false,"trap":0}],"segmentIndex":0,"screenIndex":5,"storyId":10014954,"compProbe":false,"ratings":false,"rateAdjustment":-1,"totalSeconds":367,"rereads":-1,"dataRepeat":false,"resultId":174566804,"asv":"4e1557a042dd83a69888277f2797f80399499889-3677.1","questionRereads":[],"screens":[]}',
+                appStateHours : '0',
+                render: 'seeReader',
+                staticURL: "https://resource.readingplus.com/seereader",
+                mediaURL: "https://media.readingplus.com/4.5",
+                isGateKeeperOn: true,
+                gateKeeperURL: "https://gk092jsd213.readingplus.com",
+                gateKeeperLogoutURL: "https://login.readingplus.com",
+                isMobile: (/iphone|ipod|android|iemobile|blackberry|fennec|operamini/).test(navigator.userAgent.toLowerCase()),
+                moduleName: "ssr",
+                gmtLocaltime:  "prfcccs",
+                gmtExpires:  "urffdts",
+                buildNumber: "4e1557a042dd83a69888277f2797f80399499889-3677.1"
+            });
+
+        </script>
+
+
+
+        <div id="footer" class="module-dashboard">
+	<div id="footer-container">
+		<div id="footer-topbar">
+			<div id="footer-content">
+				<div class="icon"></div>
+				<div id="footer-copyright">&copy;<script>document.write(new Date().getFullYear())</script> Taylor Associates/Communications, Inc. All Rights Reserved.</div>
+				<div id="footer-privacypolicy"> <a href="https://privacy.readingplus.com/" target="_blank" >Privacy Policy</a> </div>
+			</div>
+		</div>
+		<div id="footer-bottombar"></div>
+	</div>
+</div>
+
+
+    </body>
+
+</html>
